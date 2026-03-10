@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Instrument Serif", "STSong", "SimSun", serif;
+  --font-body: "DM Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-code: "Fira Code", "Cascadia Code", monospace;
+  --color-accent: #0f766e;
+  --color-accent-dark: #2dd4bf;
+  --color-surface-warm: #faf7f2;
+  --color-surface-deep: #0b1120;
+  --color-surface-card-dark: #131c31;
+}
